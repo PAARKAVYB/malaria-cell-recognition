@@ -76,8 +76,7 @@ para_img= imread(train_path+
                  os.listdir(train_path+'/parasitized')[0])
 plt.imshow(para_img)
 
-#Check Image Dimensions:
-# Checking the image dimensions
+# Check Image Dimensions:
 dim1 = []
 dim2 = []
 for image_filename in os.listdir(test_path+'/uninfected'):
@@ -119,7 +118,6 @@ model.add(layers.Dense(64,activation='relu'))
 model.add(layers.Dropout(0.5))
 model.add(layers.Dense(1,activation='sigmoid'))
 model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
-
 model.summary()
 batch_size = 17
 
