@@ -172,7 +172,7 @@ plt.show()
 ### Training Loss, Validation Loss Vs Iteration Plot
 ![output](op3.png)
 ### Classification Report
-!![output](op4.png)
+![output](op4.png)
 ### Confusion Matrix
 ![output](op5.png)
 ### New Sample Data Prediction
